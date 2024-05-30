@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "1031786050612",
+    "firebase_url": "https://reservacesde-default-rtdb.firebaseio.com",
+    "project_id": "reservacesde",
+    "storage_bucket": "reservacesde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031786050612:android:c9dfcdbc296f0414634661",
+        "android_client_info": {
+          "package_name": "com.example.conversordivisas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3ILJ3Bv37l0Wb5xV-GqBuwyhCsYqMoZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031786050612:android:aafd8aef1d7bf2c1634661",
+        "android_client_info": {
+          "package_name": "com.example.reservacesde"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3ILJ3Bv37l0Wb5xV-GqBuwyhCsYqMoZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031786050612:android:1023819be9ef0871634661",
+        "android_client_info": {
+          "package_name": "com.example.reservacesdei"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3ILJ3Bv37l0Wb5xV-GqBuwyhCsYqMoZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031786050612:android:255f6994dc748fd5634661",
+        "android_client_info": {
+          "package_name": "com.example.reservas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3ILJ3Bv37l0Wb5xV-GqBuwyhCsYqMoZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

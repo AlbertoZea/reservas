@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inicio"
+    tools:context=".SignUpActivity"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/signUpImageView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/logopc"
+        android:transitionName="logoImageTrans"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/bienvenidoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido,"
+        android:layout_marginTop="15dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:transitionName="textTrans"/>
+
+    <TextView
+        android:id="@+id/continuarLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrate para usar la aplicacion"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:transitionName="iniciaSesionTextTrans"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameTextField"
+            android:hint="Nombre completo"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usuarioSignUpTextField"
+            android:hint="Email"
+            android:transitionName="emailInputTextTrans"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contrasenaTextField"
+            app:passwordToggleEnabled="true"
+            android:hint="Contraseña"
+            android:transitionName="passwordInputTextTrans"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                app:backgroundTint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirmarContrasenaTextField"
+            app:passwordToggleEnabled="true"
+            android:hint="Confirmar contraseña"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/confirmPasswordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginBottom="70dp"
+                app:backgroundTint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/inicioSesion"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="30dp"
+            android:drawableTint="#DC1C75"
+            android:text="REGISTRAR"
+            android:transitionName="buttonSignUpInTrans"
+            app:backgroundTint="#DC1C75"/>
+
+        <TextView
+            android:id="@+id/nuevoUsuario"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Ya tienes una cuenta? Inicia sesion!"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:transitionName="newUserTrans"/>
+
+    </LinearLayout>
+
+</LinearLayout>
